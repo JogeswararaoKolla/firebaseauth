@@ -13,13 +13,21 @@
 
 </head>
 <body>
-  <h1>Hey you signed in using Firebase !!!</h1> 
-
-  <form class="form-signin">
-    <label for="todo">Todo</label>
-    <input type="text" id="todoId" class="form-control" placeholder="Todo" >
-    <button class="btn btn-lg btn-primary btn-group" id="todoBtn" type="button">Add Todo</button>
-</form>
+  <div class="container">
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-md-9">
+          <form>
+              <input type="text" id="todoId" class="form-control" placeholder="Todo" >
+          </form>
+      </div>
+      <div class="col-md-3">
+          <button class="btn btn-primary btn-group" id="todoBtn" type="button">Add Todo</button>
+      </div>
+    </div>
+  </div>
+ <br> 
 <div id="displayTodo">
 </div>
 <!-- The core Firebase JS SDK is always required and must be listed first -->
